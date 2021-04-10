@@ -15,11 +15,19 @@ class Login extends React.Component{
         e.preventDefault()
     }
     render(){
+        const title = {
+            padding: "10px",
+            fontSize: 100
+        }
+        const entire = {
+            color: "black",
+            width:"100%",
+            height:"100%"
+        }
+        
         return(
-            <div>
-                <div id='heading'>
-                    leaflet
-                </div>
+            <div style={entire}>
+                <div style={title}>leaflet</div>
                 <div id='subhheading'>
                     Welcome to the family!
                     

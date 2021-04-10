@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import dropdown from './dropdown.svg';
 
 // function App() {
 //   return (
@@ -28,8 +29,14 @@ import Login from './components/Login';
 // }
 class App extends Component {
   render() {
-    return (      
+    return (     
+        
        <BrowserRouter>
+        <Home
+          overlapGroup={dropdown}
+          signUp="sign up"
+          login="login"
+        />
         <div>
           {/* <Navigation /> */}
             <Switch>

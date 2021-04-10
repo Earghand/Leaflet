@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+.dropdown {
+  display: block;
+  height: 661px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+opacity: 0;transform: translate(0, -25px);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-page {
+  align-items: flex-start;
+  background-color: var(--shamrock);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 900px;
+  overflow: hidden;
+  width: 1440px;
 }
-
-.App-link {
-  color: #61dafb;
+.login {
+  height: 43px;
+  left: 1168px;
+  pointer-events: auto;
+  position: absolute;
+  top: 371px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
 }
+.login:hover {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.overlap-group {
+  height: 661px;
+  margin-top: -16px;
+  position: relative;
+  width: 1440px;
+}
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  height: 43px;
+  min-width: 157px;
+  padding: 1px 45px;
+}
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  height: 43px;
+  min-width: 157px;
+  padding: 1px 34px;
+}
+.sign-up {
+  letter-spacing: 0.00px;
+  min-height: 32px;
+  text-align: center;
+  width: 87px;
+}
+.signup {
+  height: 43px;
+  left: 926px;
+  pointer-events: auto;
+  position: absolute;
+  top: 371px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
+}
+.signup:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.title {
+  letter-spacing: 0.00px;
+  min-height: 36px;
+  text-align: center;
+  width: 66px;
+}
+.dropdown {
+  display: block;
+  height: 661px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+opacity: 0;transform: translate(0, -25px);
+}
+.landing-page {
+  align-items: flex-start;
+  background-color: var(--shamrock);
+  display: flex;
+  height: 900px;
+  overflow: hidden;
+  width: 1440px;
+}
+.login {
+  height: 43px;
+  left: 1168px;
+  pointer-events: auto;
+  position: absolute;
+  top: 371px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
+}
+.login:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.overlap-group {
+  height: 661px;
+  margin-top: -16px;
+  position: relative;
+  width: 1440px;
+}
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  height: 43px;
+  min-width: 157px;
+  padding: 1px 45px;
+}
+.overlap-group2 {
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  height: 43px;
+  min-width: 157px;
+  padding: 1px 34px;
+}
+.sign-up {
+  letter-spacing: 0.00px;
+  min-height: 32px;
+  text-align: center;
+  width: 87px;
+}
+.signup {
+  height: 43px;
+  left: 926px;
+  pointer-events: auto;
+  position: absolute;
+  top: 371px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
+}
+.signup:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
+.title {
+  letter-spacing: 0.00px;
+  min-height: 36px;
+  text-align: center;
+  width: 66px;
+}
+.border-2px-shamrock {
+  border: 2px solid var(--shamrock);
+}
+.lato-regular-normal-black-27px {
+  color: black;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-regular-normal-black-30px {
+  color: black;
+  font-family: "Lato-Regular", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --shamrock: rgba(44, 204, 148, 1);
 }

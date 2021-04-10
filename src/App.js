@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import SignUp from './components/SignUp';
+import Login from './components/Login';
 
 // function App() {
 //   return (
@@ -34,6 +35,7 @@ class App extends Component {
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path='/signup' component={SignUp}/>
+             <Route path='/login' component={Login}/>
             <Route component={Error}/>
            </Switch>
         </div> 

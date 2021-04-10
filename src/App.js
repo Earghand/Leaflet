@@ -3,6 +3,8 @@ import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
+import SignUp from './components/SignUp';
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -31,6 +33,7 @@ class App extends Component {
           {/* <Navigation /> */}
             <Switch>
              <Route path="/" component={Home} exact/>
+             <Route path='/signup' component={SignUp}/>
             <Route component={Error}/>
            </Switch>
         </div> 

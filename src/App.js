@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import Landing from './components/Landing';
 
 
 // function App() {
@@ -36,7 +37,7 @@ class App extends Component {
         <div>
           {/* <Navigation /> */}
             <Switch>
-             <Route path="/" component={Home} exact/>
+             <Route path="/" component={Landing} exact/>
              <Route path='/signup' component={SignUp}/>
              <Route path='/login' component={Login} />
             <Route component={Error}/>

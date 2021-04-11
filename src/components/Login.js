@@ -11,7 +11,7 @@ const Login = () => {
                     Welcome back!
                 </div>
                 <div className='description'>
-                    Please enter an email and password below to sign up!
+                    Please enter your email and password below to login!
                 </div>
                 <form>
                     <div className="email">Email</div>
@@ -20,7 +20,7 @@ const Login = () => {
                     <div className="password">Password</div>
                     <input type='password' name='password' placeholder='Password' className="passwordBox" requried/>
                     <br></br>
-                    <button className="submit"> Create Account</button>
+                    <button className="submit">Login</button>
                 </form>
                 <div className="redirectSignUp">
                     Don't have an account?

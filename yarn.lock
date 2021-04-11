@@ -1891,6 +1891,57 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
+"@syncfusion/ej2-base@~19.1.54":
+  "integrity" "sha512-7RnRTgJXLONJD0ciFHEfbBwReQFcSiKHYPuybVX0nAFR4iw6dWE+fikSMIULOqn/BIw7MXx9Lvbnym4PrZUANw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-19.1.54.tgz"
+  "version" "19.1.54"
+  dependencies:
+    "@syncfusion/ej2-icons" "~19.1.54"
+
+"@syncfusion/ej2-buttons@~19.1.54":
+  "integrity" "sha512-jMweKcNkjKSZGrwh03SG/JQ8c7vVpUygPxfjMAv/pJcWj4GvvNXMzd0TQuwFSCjLFlole39/l3LpUWnCoZstrA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-buttons/-/ej2-buttons-19.1.54.tgz"
+  "version" "19.1.54"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.54"
+
+"@syncfusion/ej2-data@~19.1.54":
+  "integrity" "sha512-da21UUMnC6KF2w9TuYDuG/ncGuC9ZJ6B4myOghVe80+sEDBhq/2ePmTh0xxsdtcXG8SvPOoAnjwjccJzhZDLDQ=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-data/-/ej2-data-19.1.55.tgz"
+  "version" "19.1.55"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.54"
+
+"@syncfusion/ej2-icons@~19.1.54":
+  "integrity" "sha512-QFIU7AOrIvgEjcOxj46fU9P3gQqjt7jKZpVc/GoDTvSDroUsLtbOiEZqphC9TQ7ZzLS9bfA/xNYNEGiln/NlTA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-icons/-/ej2-icons-19.1.54.tgz"
+  "version" "19.1.54"
+
+"@syncfusion/ej2-lists@19.1.54":
+  "integrity" "sha512-FMkMjzqfi6ITAO/oDPdgDZZlhZ0yPSJdAOyCR7OeoHYzLxsxpZ/FPVqUz4HTJvaQ4YzVp298uPSkZpgJJqsi8A=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-lists/-/ej2-lists-19.1.54.tgz"
+  "version" "19.1.54"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.54"
+    "@syncfusion/ej2-buttons" "~19.1.54"
+    "@syncfusion/ej2-data" "~19.1.54"
+
+"@syncfusion/ej2-react-base@~19.1.54":
+  "integrity" "sha512-YBSXn3MehH2ocRozRXjMvTlhHJlsilQaoU7LUuWhVQ9+Qoq6esflpB+x/Fa1U/sUTz7s3iQcb45rAy+nZbmhyw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-19.1.54.tgz"
+  "version" "19.1.54"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.54"
+
+"@syncfusion/ej2-react-lists@^19.1.54":
+  "integrity" "sha512-FYMGtY555jM9deSnrvq9r84N5GShOeRQwwPa9vwdgfybVmQjFw4ru9mASm0vpQRgsMWwJ1q39VJlKX9QTmGARQ=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-lists/-/ej2-react-lists-19.1.54.tgz"
+  "version" "19.1.54"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.1.54"
+    "@syncfusion/ej2-lists" "19.1.54"
+    "@syncfusion/ej2-react-base" "~19.1.54"
+
 "@testing-library/dom@^7.28.1":
   "integrity" "sha512-7JhIg2MW6WPwyikH2iL3o7z+FTVgSOd2jqCwTAHqK7Qal2gRRYiUQyURAxtbK9VXm/UTyG9bRihv8C5Tznr2zw=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-7.30.3.tgz"

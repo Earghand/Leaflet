@@ -1,0 +1,142 @@
+.title {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 500%;
+}
+
+.rectangle {
+  height: 80vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #00C27E, #0DFFAA);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.welcome {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.description {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+
+}
+.email {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.emailBox {
+  position: absolute;
+  width: 17%;
+  height: 4%;
+  left: 50%;
+  top: 48%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding-left: 1%;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.password {
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  color: #000000;
+}
+
+.passwordBox {
+  position: absolute;
+  width: 17%;
+  height: 4%;
+  left: 50%;
+  top: 56%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding-left: 1%;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.submit {
+  position: absolute;
+  width: 8%;
+  height: 3.5%;
+  left: 50%;
+  top: 63%;
+  border: none;
+  color: #ffffff;
+  background-color: #CC472C;
+  font-family: Montserrat;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.redirectSignUp {
+  
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #005DB3;
+}
+.cactus {
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  left: 15%;
+  top: 17.5%;
+  filter: drop-shadow(20px 20px 40px rgba(0, 0, 0, 0.25));
+}

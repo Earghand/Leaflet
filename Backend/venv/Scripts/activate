@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Vivian\Desktop\citrus hack\Leaflet\Backend\venv"
+VIRTUAL_ENV="C:\Users\theod\Desktop\leaflet\Leaflet\Backend\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

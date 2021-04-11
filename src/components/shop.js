@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/Login.css';
+import '../css/Shop.css';
 import {useState, useEffect} from 'react';
 import fire from "../fire";
 
-function Login() {
+function Shop() {
 
     const [user, setUser] = useState('');
     const [email1, setEmail1] = useState('');
@@ -59,47 +59,46 @@ function Login() {
     }, []);
 
     return(
-        <div className="body">
-            <div className="rectangle">
-                <img src="/images/cactus.png" className="cactus"/>
-                <div className="title">leaflet</div>
-                <div className="welcome">
-                    Welcome back!
+        <div>
+            <div className="nav">
+                <div className="leaflet1">leaflet</div>
+                <div className="points">
+                    <img src="/images/leaf1.png"/>
+                    <div className="point">250</div>
                 </div>
-                <div className='description'>
-                    Please enter your email and password below to login!
+                <div className="shop">
+                <img src="/images/shop.png"/>
+                    <div className="shopWord">shop</div>
                 </div>
-                <form>
-                    <div className="email">Email</div>
-                    <input 
-                        type='email' 
-                        name='email' 
-                        placeholder='Email address' 
-                        className="emailBox" 
-                        required
-                        value = {email1}
-                        onChange = {(e) => setEmail1(e.target.value)}
-                        />
-                    <br></br>
-                    <div className="password">Password</div>
-                    <input 
-                        type='password'
-                        name='password' 
-                        placeholder='Password' 
-                        className="passwordBox" 
-                        requried
-                        value = {password1}
-                        onChange = {(e) => setPassword1(e.target.value)}
-                        />
-                    <br></br>
-                    <button className="submit" onClick={handleLogin}>Login</button>
-                </form>
-                <div className="redirectSignUp">
-                    <a href = "http://localhost:3000/signup"> Don't have an account? </a>
+                <div className="profile">
+                <img src="/images/profile.png"/>
+                    <div className="profileWord">profile</div>
                 </div>
             </div>
+            <div className="shop">
+                <p className="shopTitle">Shop</p>
+                <ul>
+                <label className="tasks">Party Hat</label>
+                <img src="/images/caretRight.png" className="caretRight" id="caret"/><br></br>
+                <label className="tasks">Sunglasses</label>
+                <img src="/images/caretRight.png" className="caretRight"/><br></br>
+                <label className="tasks">Couch</label>
+                <img src="/images/caretRight.png" className="caretRight"/><br></br>
+                </ul>
+                
+            </div>
+            <div className="roombg">
+                <p className="roomTitle">Your Room</p>
+                <ul>
+                <img src="/images/partyHat.png" className="partyHat" id="partyHat"/>
+                <img src="/images/cactus.png" className="cactus" id="cactus"/>
+                <img src="/images/sunglasses.png" className="sunglasses" id="sunglasses"/>
+                <img src="/images/couch.png" className="couch" id="couch"/>
+                </ul>
+            </div>
+                
         </div>
     )
 }
 
-export default Login;
+export default Shop;

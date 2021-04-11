@@ -95,7 +95,7 @@ function Login() {
                     <button className="submit" onClick={handleLogin}>Login</button>
                 </form>
                 <div className="redirectSignUp">
-                    Don't have an account?
+                    <a href = "http://localhost:3000/signup"> Don't have an account? </a>
                 </div>
             </div>
         </div>

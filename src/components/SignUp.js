@@ -90,7 +90,7 @@ function SignUp() {
                     <button className="submit1" onClick={handleSignup}>Create Account</button>
                 </form>
                 <div className="redirectSignUp1">
-                    Already have an account?
+                <a href = "http://localhost:3000/login"> Already have an account? </a>
                 </div>
             </div>
         </div>

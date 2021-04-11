@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
+    "@syncfusion/ej2-react-lists": "^19.1.54",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

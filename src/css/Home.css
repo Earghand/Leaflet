@@ -1,0 +1,145 @@
+.nav {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #00C27E, #0DFFAA);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.leaflet1 {
+    position: absolute;
+    left: 2.5%;
+    top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 300%;
+}
+
+.points {
+    position: absolute;
+    left: 65%;
+    top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.point {
+    position: absolute;
+    left: 85%;
+    top: 15%;
+}
+
+.shop {
+    position: absolute;
+    left: 75%;
+    top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.shopWord {
+    position: absolute;
+    left: 115%;
+    top: 15%;
+}
+
+.profile {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.profileWord {
+    position: absolute;
+    left: 115%;
+    top: 15%;
+}
+
+.dailyTasks {
+    position: absolute;
+    width: 32.5%;
+    height: 35%;
+    left: 7%;
+    top: 17%;
+    background: #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.weeklyTasks {
+    position: absolute;
+    width: 32.5%;
+    height: 35%;
+    left: 7%;
+    top: 57%;
+    background: #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dailyTasksTitle {
+    position: relative;
+    left: 35%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.tasks {
+    position: relative;
+    left: 7.5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 175%;
+    line-height: 200%;
+}
+
+.checkBox {
+    position: relative;
+    left: 2.5%;
+    background-color: #fafafa;
+	border: none;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+    zoom: 1.5;
+}
+
+.caretRight {
+    position: absolute;
+    left: 85%;
+    margin-top: 2%;
+}
+
+.friendsTitle {
+    position: relative;
+    left: 65%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 300%;
+}
+.friend {
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    left: 50%;
+    top: 27.5%;
+    background: #E4EFE5;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}

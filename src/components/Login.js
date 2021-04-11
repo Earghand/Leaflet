@@ -1,50 +1,33 @@
 import React from 'react';
+import '../css/Login.css';
 
-class Login extends React.Component{
-    state={
-        email:'',
-        password:''
-    }
-
-    handleChange = (e) => {
-        const {name, value} = e.target
-        this.setState({[name]:value})
-    }
-
-    handleSubmit = (e) => {
-        e.preventDefault()
-    }
-    render(){
-        const title = {
-            padding: "10px",
-            fontSize: 100
-        }
-        const entire = {
-            color: "black",
-            width:"100%",
-            height:"100%"
-        }
-        
-        return(
-            <div style={entire}>
-                <div style={title}>leaflet</div>
-                <div id='subhheading'>
-                    Welcome to the family!
-                    
+const Login = () => {
+    return(
+        <div className="body">
+            <div className="rectangle">
+                <img src="/images/cactus.png" className="cactus"/>
+                <div className="title">leaflet</div>
+                <div className="welcome">
+                    Welcome back!
                 </div>
-                <div id='description'>
+                <div className='description'>
                     Please enter an email and password below to sign up!
                 </div>
-                <form onSubmit = {this.handleSubmit}>
-                    <input type='email' name='email' placeholder='Email address' required onChange={this.handleChange}/>
+                <form>
+                    <div className="email">Email</div>
+                    <input type='email' name='email' placeholder='Email address' className="emailBox" required/>
                     <br></br>
-                    <input type='password' name='password' placeholder='Password' requried onChange={this.handleChange}/>
+                    <div className="password">Password</div>
+                    <input type='password' name='password' placeholder='Password' className="passwordBox" requried/>
                     <br></br>
-                    <button>Create Account</button>
+                    <button className="submit"> Create Account</button>
                 </form>
+                <div className="redirectSignUp">
+                    Don't have an account?
+                </div>
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default Login;

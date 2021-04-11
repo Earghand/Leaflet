@@ -103,9 +103,14 @@
 .submit {
     position: absolute;
     width: 8%;
-    height: 3%;
+    height: 3.5%;
     left: 50%;
     top: 63%;
+    border: none;
+    color: #ffffff;
+    background-color: #CC472C;
+    font-family: Montserrat;
+    border-radius: 5px;
 }
 
 .redirectSignUp {

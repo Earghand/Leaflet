@@ -12,6 +12,6 @@ const home = () => {
 }
  
 export default home;
-
+//dfa
 // import Hub from './components/FriendHub';
-// <Route path='/hub' component={Hub}/>
+// <Route path='/hub' component={Hub}/ >

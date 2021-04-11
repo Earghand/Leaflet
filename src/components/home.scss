@@ -1,3 +1,13 @@
+.dropdown {
+  display: block;
+  height: 692px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1463px;
+  opacity: 1;
+  transform: translate(0, -25px);
+}
 .landing-page {
   align-items: flex-start;
   background-color: var(--shamrock);
@@ -7,21 +17,26 @@
   width: 1440px;
 }
 .login {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 82px;
-  min-width: 159px;
+  height: 43px;
+  left: 1179px;
+  pointer-events: auto;
+  position: absolute;
+  top: 386px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 1;transform: translate(0, -25px);
+}
+.login:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .overlap-group {
-  align-items: flex-end;
-  background-size: 100% 100%;
-  display: flex;
   height: 692px;
-  justify-content: flex-end;
   margin-left: -12px;
   margin-top: -31.5px;
-  min-width: 1463px;
-  padding: 262.5px 125px;
+  position: relative;
+  width: 1463px;
 }
 .overlap-group1 {
   align-items: flex-start;
@@ -48,15 +63,34 @@
   width: 87px;
 }
 .signup {
-  align-items: flex-start;
-  display: flex;
-  min-width: 159px;
+  height: 43px;
+  left: 938px;
+  pointer-events: auto;
+  position: absolute;
+  top: 386px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 1;transform: translate(0, -25px);
+}
+.signup:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .title {
   letter-spacing: 0.00px;
   min-height: 36px;
   text-align: center;
   width: 66px;
+}
+.dropdown {
+  display: block;
+  height: 692px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1463px;
+opacity: 1;transform: translate(0, -25px);
 }
 .landing-page {
   align-items: flex-start;
@@ -67,21 +101,26 @@
   width: 1440px;
 }
 .login {
-  align-items: flex-start;
-  display: flex;
-  margin-left: 82px;
-  min-width: 159px;
+  height: 43px;
+  left: 1179px;
+  pointer-events: auto;
+  position: absolute;
+  top: 386px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
+}
+.login:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .overlap-group {
-  align-items: flex-end;
-  background-size: 100% 100%;
-  display: flex;
   height: 692px;
-  justify-content: flex-end;
   margin-left: -12px;
   margin-top: -31.5px;
-  min-width: 1463px;
-  padding: 262.5px 125px;
+  position: relative;
+  width: 1463px;
 }
 .overlap-group1 {
   align-items: flex-start;
@@ -108,19 +147,25 @@
   width: 87px;
 }
 .signup {
-  align-items: flex-start;
-  display: flex;
-  min-width: 159px;
+  height: 43px;
+  left: 938px;
+  pointer-events: auto;
+  position: absolute;
+  top: 386px;
+  transition: all 0.2s ease;
+  width: 159px;
+opacity: 0;transform: translate(0, -25px);
+}
+.signup:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .title {
   letter-spacing: 0.00px;
   min-height: 36px;
   text-align: center;
   width: 66px;
-}
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  box-sizing: border-box;
 }
 .border-2px-shamrock {
   border: 2px solid var(--shamrock);
